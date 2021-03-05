@@ -1,5 +1,7 @@
-# traversy-20-web-projects-vanilla-javascript
+# 20 Web Projects With Vanilla Javascript
 
-Projects of Course - 20 Web Projects With Vanilla Javascript - Udemy
+Projects from Course - 20 Web Projects With Vanilla Javascript - Udemy
 
 # Deploy using Ansible
+
+$ ansible-playbook -i hosts site.yml

@@ -1,0 +1,16 @@
+---
+# file: roles/nginx/tasks/main.yml
+
+- name: NGINX | Updating apt cache
+  apt:
+    update_cache: yes
+
+- name: NGINX | Installing NGINX
+  apt:
+    pkg: nginx
+    state: latest
+
+- name: NGINX | Starting NGINX
+  service:
+    name: nginx
+    state: started
