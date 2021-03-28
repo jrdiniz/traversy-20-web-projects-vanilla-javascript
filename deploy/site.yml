@@ -1,6 +1,0 @@
-# file: raspberry.yml
-- hosts: raspberrypi
-  become: true
-  become_method: sudo
-  roles:
-    - role: nginx
