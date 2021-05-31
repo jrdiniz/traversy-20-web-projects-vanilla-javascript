@@ -37,6 +37,7 @@ function searchMeal(e){
                         `).join('');
             }
         });
+        search.value = '';
     }else{
         alert('Please enter a search term');
     };
